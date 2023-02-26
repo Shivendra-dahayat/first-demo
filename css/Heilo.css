@@ -1,0 +1,277 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header-wrapper{
+    width: 100%;
+    height:100%;
+    background-image: url(../img/slide01.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.nav h4{
+    float: left;
+    font-weight: 400;
+    margin-left: 30px;
+}
+.nav h5{
+    float: right;
+    margin-right: 30px;
+    font-weight: 400;
+}
+.nav .light-text{
+    font-weight: 200;
+    font-size: 13px;
+    /* color: gray; */
+}
+.nav span{
+    padding-right: 10px;
+}
+
+.banner-text{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 220px;
+    /* clear: both; */
+}
+.banner-text hr{
+    width: 50%;
+}
+.banner-text p{
+    font-weight: 200;
+    letter-spacing: 4px;
+}
+.banner-text h1{
+    font-size: 120px;
+    font-weight: 200;
+    margin-top: 5px;
+}
+/* banner ends */
+/* two section starts */
+.full-wrapper{
+    width: 100%;
+    background-color: #dfdfdf;
+    padding: 80px 0;
+}
+.full-wrapper .fixed-with{
+    /* max-width: 1200px; */
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    /* background-color: aquamarine; */
+}
+.two-section .fixed-with .left{
+    float: left;
+    width: 45%;
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+/* .right{
+    float: right;
+    width: 45%;
+} */
+.two-section .fixed-with .right{
+    float: right;
+    width: 45%;
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+.two-section img{
+    width: 100%;
+}
+
+.two-section h3{
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 8px;
+}
+.align-left{
+    text-align: left;
+    padding: 0 30px;
+    font-size: 15px;
+    color: gray;
+}
+.two-section button{
+    width: 150px;
+    height: 40px;
+    background: none;
+    font-family:'poppins', sans-serif;
+    margin-top: 30px;
+    border: 2px solid #dfdfdf;
+}
+
+/* two section ends */
+/* quote start  */
+
+
+.full-quote{
+    text-align: center;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+.full-quote p{
+    letter-spacing: 4px;
+    font-size: 13px;
+}
+
+.full-quote hr{
+    width: 35%;
+}
+
+.full-quote h5{
+    font-size: 25px;
+    font-weight: 250;
+    margin: 20px 0;
+}
+/* full quote ends */
+
+.fixed-width{
+    /* max-width: 1200px; */
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    /* background-color: aquamarine; */
+}
+.full-quote-content p{
+    letter-spacing: 4px;
+    font-size: 13px;
+}
+
+.full-quote-content hr{
+    width: 35%;
+}
+
+.full-quote-content h5{
+    font-size: 25px;
+    font-weight: 250;
+    margin: 20px 0;
+}
+.four-images img{
+    width: 45%;
+    float: left;
+    margin-bottom: 5%;
+    border: 10px solid #fff;
+}
+.four-images .left{
+    margin-left: 5%;
+}
+
+/* four images ends */
+/* footer starts */
+
+.footer-full{
+    background-color: #000;
+    color: gray;
+}
+.footer{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer .fa-brands{
+    font-size: 25px;
+    padding: 10px;
+}
+.footer .fa-regular{
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+/*  start meadia quory */
+
+
+@media only screen and (max-width:900px){
+    .banner-text h1{
+        font-size: 60px;
+    }
+    .two-section .fixed-with .left{
+      
+        width: 100%;
+        /* padding-bottom: 50px; */
+    }
+    /* .right{
+        float: right;
+        width: 45%;
+    } */
+    .two-section .fixed-with .right{
+        
+        width: 100%;
+        /* padding-bottom: 50px; */
+    }
+}
+
+
+@media only screen and (max-width:900px){
+    .four-images img{
+       width: 100%;
+    } 
+    .full-quote-content p{
+        letter-spacing: 3px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    
+    .full-quote-content hr{
+        width: 80%;
+    }
+    
+    .full-quote-content h5{
+        font-size: 20px;
+
+    }
+    .full-quote p{
+        letter-spacing: 3px;
+        font-size: 10px;
+        line-height: 20px;
+
+    }
+    
+    .full-quote hr{
+        width: 80%;
+    }
+    
+    .full-quote h5{
+        font-size: 20px;
+    }
+    .banner-text{
+        width: 100%;
+        /* margin: 0 auto; */
+        /* text-align:left; */
+        /* position: relative; */
+        /* top: 220px; */
+        /* clear: both; */
+    }
+    .banner-text hr{
+        width: 80%;
+    }
+    .banner-text p{
+        font-weight: 200;
+        letter-spacing: 3px;
+        text-align:center;
+        font-size: 14px;
+        line-height: 20px;
+        /* margin-right: 100px; */
+
+    }
+    .banner-text h1{
+        font-size: 40px;
+        font-weight: 200;
+        margin-top: 5px;
+    }
+}
+
+
